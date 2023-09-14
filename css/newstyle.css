@@ -1,0 +1,11 @@
+.nomedaclasse{
+    background-color: black;
+    width: 120px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.complemento{
+    border-radius: 30px;
+    height: 90px;
+}
