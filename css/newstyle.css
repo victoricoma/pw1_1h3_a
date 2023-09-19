@@ -1,11 +1,7 @@
-.nomedaclasse{
-    background-color: black;
-    width: 120px;
-    color: aliceblue;
-    text-align: center;
+.gp-card-home{
+    margin: 20px;
+    width: 25%;
 }
-
-.complemento{
-    border-radius: 30px;
-    height: 90px;
+.gp-img-home{
+    width: 100%;
 }
