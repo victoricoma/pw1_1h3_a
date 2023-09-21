@@ -1,7 +1,42 @@
-.gp-card-home{
+.gp-card-home {
     margin: 20px;
-    width: 25%;
+    width: 30%;
 }
-.gp-img-home{
+
+.gp-img-home {
     width: 100%;
+}
+
+.gp-section-home{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.mySlide{
+    display: none;
+}
+
+.gp-img-slide{
+    vertical-align: middle;
+}
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 0 3px;
+    user-select: none;
 }
