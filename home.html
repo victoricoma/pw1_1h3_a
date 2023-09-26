@@ -13,11 +13,21 @@
     <header>
         <nav>
             <div class="w3-bar w3-border w3-light-grey">
+                <button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
                 <img src="./img/logo/goodplayH.png" alt="Logo Menu" width="120" height="60">
             </div>
         </nav>
     </header>
     <main>
+        <!--Menu Sidebar-->
+        <section>
+            <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+                <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+                <a href="#" class="w3-bar-item w3-button">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button">Link 3</a>
+            </div>
+        </section>
         <!--Slide Show Hero-->
         <section>
             <div class="slideshow-container">
@@ -94,6 +104,13 @@
                 }
                 slides[slideIndex - 1].style.display = "block";
                 dots[slideIndex - 1].className += " active";
+            }
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
             }
         </script>
     </footer>
