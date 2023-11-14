@@ -35,13 +35,24 @@
               </label>
               <label for="senha">
                 <span>Senha</span>
-                <input id="senha" class="form-control form-control-lg" type="password" placeholder="Digite sua senha"
+                <input id="senha" class="form-control form-control-lg" type="text" placeholder="Digite sua senha"
                   aria-label=".form-control-lg example">
+              </label>
+              <label for="operation">
+                <span>Operação Matemática</span>
+                <select class="form-control form-control-lg" id="operation">
+                  <option value="+">soma</option>
+                  <option value="-">subtração</option>
+                  <option value="*">multiplicação</option>
+                  <option value="/">divisão</option>
+                  <option value="sqrt">Raiz</option>
+                  <option value="pw">Potência</option>
+                </select>
               </label>
             </div>
             <div class="d-grid gap-2">
-              <button class="btn btn-primary" type="button" onclick="somaNumero(15, 22, 'j')">Login</button>
-              <button class="btn btn-primary" type="button" onclick="somaNumero(15, 22, 'h')">Cadastrar</button>
+              <button class="btn btn-primary" type="button" onclick="calculaNumeros()">Login</button>
+              <button class="btn btn-primary" type="button" onclick="calculaNumeros()">Cadastrar</button>
             </div>
           </div>
         </div>
